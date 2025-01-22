@@ -40,6 +40,7 @@ header .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
 .logo{
     display: flex;
@@ -132,6 +133,27 @@ nav a:hover{
 }
 
 /*footer*/
+
+footer{
+    background-color: #171717;
+    height: 70px;
+
+}
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 20px;
+
+}
+footer h4{
+    color: #eeeeee;
+}
  
 footer .wrapper ul li a{
     display: inline-block;
